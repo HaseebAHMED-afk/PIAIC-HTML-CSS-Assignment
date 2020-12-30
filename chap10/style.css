@@ -1,0 +1,47 @@
+.main-heading{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 100px auto;
+}
+table{
+    width: 100%;
+}
+table , tr ,td{
+    border: 2px solid black;
+    text-align: center;
+}
+td{
+    height: 50px;
+}
+.alkali{
+ background-color:#FFE0B2;
+}
+.alkaline-earth{
+    background-color:#FFCC80;
+}
+.transition{
+    background-color:#D2C4E8;
+}
+.other{
+    background-color: #FFCDD2;
+}
+.other-non-metal{
+    background-color: #FFAB91;
+}
+.halogens{
+    background-color: #A5D6A7;
+}
+.noble{
+    background-color: #FFFFFF;
+}
+.rare-earth-lanthanoid{
+    background-color:#E6EE9B;
+}
+.actinoids{
+    background-color: #5D82C0;
+}
+
+.lac{
+    width: 80%;
+    margin: auto;
+}
