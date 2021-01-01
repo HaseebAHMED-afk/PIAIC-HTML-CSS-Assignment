@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.topnav{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btns{
+    width: 50%;
+    justify-content: start;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(94, 94, 94);
+    text-align: center;
+    padding: auto;
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+    font-size: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto 5px;
+}
+
+/* Social Icon CSS */
+.fa {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    color: white;
+  }
+  
+  .fa-twitter {
+    color: white;
+  }
+  
+  .fa-google {
+    color: white;
+  }
+  
+  .fa-linkedin {
+    color: white;
+  }
+  
+  .fa-youtube {
+    color: white;
+  }
+
+.nav__links{
+    list-style: none;
+}
+.nav__links .link{
+    display: inline-block;
+}
+.link{
+    margin: auto 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.call-btn{
+    width: 100px;
+    height: 35px;
+    margin: auto 5px;
+    outline-style: none;
+    background-color: rgb(171, 243, 26);
+    border: 1px solid  rgb(70, 70, 70);
+    border-radius: 10px;
+    color: rgb(70, 70, 70);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+.call-btn:focus{
+    outline-style: none;
+}
+.call-btn:hover{
+    background-color:  rgb(123, 175, 19);
+}
+.panacloud{
+    width: 120px;
+    height: auto;
+    margin-right: auto;
+}
+.mainnav__links{
+    list-style: none;
+}
+.mainnav__links .main-nav-link{
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+} 
+.link-element{
+    text-decoration: none;
+    color: black;
+    margin: auto 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-nav-link:hover{
+    border-bottom: 5px solid rgb(123, 175, 19) ;
+}
+
+.second-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.slideshow-container {
+    max-width: auto;
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  .mySlides img{
+      height: 650px;
+      object-fit: cover;
+  }
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+
+  
+  .text {
+    color: #ffffff;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 35%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    text-align: center;
+  }
+
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  .advantages{
+      text-align: center;
+  }
+  .advantage-heading{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: rgb(149, 231, 66);
+  }
+  .our{
+      color: rgb(77, 77, 77);
+  }
+  .advantage-para{
+      width: 75%;
+      margin: 15px auto;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: rgb(168, 168, 168);
+  }
