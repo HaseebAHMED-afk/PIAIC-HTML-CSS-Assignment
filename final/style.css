@@ -196,6 +196,7 @@
   .advantage-heading{
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       color: rgb(149, 231, 66);
+      margin: 50px auto;
   }
   .our{
       color: rgb(77, 77, 77);
@@ -205,4 +206,35 @@
       margin: 15px auto;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       color: rgb(168, 168, 168);
+  }
+  .adv-card-deck{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .adv-card{
+    width: 15%;
+    margin: 15px;
+  }
+  .adv-icon{
+    background-color: rgb(196, 196, 196);
+    width: 50%;
+    padding: 10% 5px;
+    margin: 50px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+  }
+  .adv-card-heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+  }
+  .adv-card-para{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    color: rgb(160, 160, 160);
+  }
+  .adv-card-img{
+    width: 50px;
+    height: auto;
+  }
+  .about-us{
+    text-align: center;
   }
