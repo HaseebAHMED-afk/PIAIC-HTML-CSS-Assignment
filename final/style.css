@@ -82,7 +82,7 @@
     background-color: rgb(171, 243, 26);
     border: 1px solid  rgb(70, 70, 70);
     border-radius: 10px;
-    color: rgb(70, 70, 70);
+    color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     transition: all 0.3s ease-in-out;
 }
@@ -313,3 +313,106 @@
   .sc-para{
     color:  rgb(160, 160, 160);
   }
+.portfolio{
+  text-align: center;
+  background-color: rgb(27, 27, 27);
+  padding: 15px;
+}
+.portfolio-para{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 5px;
+  width: 75%;
+  margin: auto;
+  color: white;
+}
+.pf-cat{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pf-cat p{
+  margin: 25px;
+}
+.portfolio-img{
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+}
+.packages-card-deck{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+.packages{
+  text-align: center;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+  overflow: hidden;
+}
+.package-card{
+  width: 25%;
+  border: 1px solid rgb(34, 34, 34);
+  background-color: white;
+ 
+}
+.package-card-center{
+  position: relative;
+  top: -50px;
+  border: 3px solid rgb(133, 218, 6) !important;
+}
+.packages p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(160, 160, 160);
+}
+.packages .advantage-heading{
+  margin: 25px !important;
+}
+.package-card{
+  width: 25%;
+  border: 1px solid rgb(34, 34, 34);
+}
+.package-heading{
+  margin: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.discount-price{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ color: rgb(133, 218, 6);
+}
+.package-card p{
+  margin: 10px;
+}
+.package-card hr{
+  width: 80%;
+  margin: auto;
+}
+.order-btn{
+  background-color: rgb(133, 218, 6);
+  color: white;
+  border: 1px solid  rgb(106, 173, 5);
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  position: relative;
+  bottom: -15px;
+  cursor: pointer;
+}
+.order-btn:focus{
+  outline-style: none;
+}
+.our-process{
+  text-align: center;
+}
+.our-process .advantage-heading{
+  margin-bottom: 10px;
+}
+.our-process p{
+  width: 70%;
+  margin: 0 auto !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(160, 160, 160);
+}
